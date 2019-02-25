@@ -56,7 +56,7 @@ border-bottom-color: #cccccc;
     
 }
 
-.Contacts {
+.Contact {
     float: left;
     font-family: "Arial";
     font-size: 14px; 
@@ -145,10 +145,17 @@ h2 {
  #main2 {
     background: #ffffff;
     width: 960px;
-    height: auto;
+    height: 410px;
     margin-left: 220px;
     margin-right: 250px;
     margin-top: 0;
+
+}
+
+#fd {
+    height: auto;
+    width: auto;
+    margin-left: 50px;
 }
 
  #name { input [type=text], select, textarea 
@@ -168,7 +175,7 @@ h2 {
     border: 1px solid ccc;
     border-radius: 4px;
     box sizing: border-box;
-    margin-top: 2px;
+    margin-top: -40px;
     margin-bottom: 2px;
     resize: vertical;
 }
@@ -179,7 +186,7 @@ h2 {
     border: 1px solid ccc;
     border-radius: 4px;
     box sizing: border-box;
-    margin-top: 2px;
+    margin-top: -30px;
     margin-bottom: 2px;
     resize: vertical;
     text-align: left;
@@ -192,11 +199,73 @@ input[type=submit] {
     color: white;
     padding: 15px 40px;
     margin-right: 550px;
+    margin-top: -15px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 input[type=submit]:hover{
     background-color:#45a049;
+}
+
+           /* Portfolio css */
+#main3{
+    background: #ffffff;
+    width: 950px;
+    height: 510px;
+    margin-left: 220px;
+    margin-right: 250px;
+    margin-top: 0;
+}
+.img1 {
+    float: left;
+    padding-top:10px;
+    padding-right: 30px;
+    margin-left: 50px;
+}
+    
+.img2 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    margin-left: 50px;
+}
+
+.img3 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.img4 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    position: absoulte;
+    margin-top: 250px;
+    margin-left: -230px;
+    
+}
+
+.img5 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    postion: absolute;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.img6 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    postion: absolute;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
